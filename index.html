@@ -58,20 +58,31 @@
         </div>
         <hr>
         <br>
-        <div class="foodcontainer2">
-        <div class="fooditem2">
-            <a href="pexels-jang-‘s-🍂-699953.jpg"><img src="pexels-jang-‘s-🍂-699953.jpg"width="250px" height="auto"></a>
-            <div class="detrails">
-                <h3>food name</h3>
-                <div class="price">
-                    <h2>$10</h2>
-                    
-                </div>
-            </div>
-           
-    
-            </div>
-            </div>
+        <div class="slide">
+            <div class="imagelist">
+        <img src="Corona.jpg"  width="160px"     class="imageitem">
+       
+        <img src="Corona.jpg" width="160px"     class="imageitem">
+        
+        <img src="heineken.jpg"    width="160px"     class="imageitem">
+        
+        <img src="pexels-jang-‘s-🍂-699953.jpg"    width="160px"             class="imageitem">
+
+        <img src="pexels-dana-tentis-262959.jpg"     width="160px"   class="imageitem">
+ 
+        <img src="Corona.jpg"   width="160px"    class="imageitem">
+       
+        
+        
+        <img src="heineken.jpg"    width="160px"       class="imageitem">
+        
+        <img src="pexels-jang-‘s-🍂-699953.jpg"   width="160px"               class="imageitem">
+
+        <img src="pexels-dana-tentis-262959.jpg"   width="160px"    class="imageitem">
+
+    </div>
+        
+        </div>
             <br>
             <div class="fooditem3">
                 <img src="pexels-valeria-boltneva-1199957.jpg"width="90px">
@@ -290,6 +301,29 @@
        grid-template-columns: repeat(3,100px);
         justify-content: center;
         align-items: center;
+    }
+      .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: orange;
+        border-radius:10px ;
+        max-width:auto ;
+    }
+    .slide .imagelist{
+        
+          width: 545px;
+          height: 400px;
+          object-fit: cover;
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(10,1fr);
+        overflow-x: auto;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+
     }
  </style>
 </html>
