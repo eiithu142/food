@@ -323,7 +323,28 @@
         align-items: center;
         justify-content: center;
         object-fit: cover;
+         animation-name: today;
+        animation-duration: 5s;
+         animation-iteration-count: infinite;
 
     }
+     @keyframes today{
+    0%{
+        background-color: aquamarine;
+    }
+    20%{
+        background-color: gray;
+    }
+    40%{
+        background-color: palevioletred;
+    }
+    60%{
+        background-color: purple;
+    }
+    80%{
+        background-color: gold;
+    }
+    100%{background-color: orange;}
+   }
  </style>
 </html>
